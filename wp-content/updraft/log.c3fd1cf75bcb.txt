@@ -1,0 +1,783 @@
+0000.168 (0) Opened log file at time: Tue, 07 Jul 2015 23:18:17 +0000 on http://keenerjerseys.com
+0000.174 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.10.3 WP: 4.2.2 PHP: 5.4.38 (Linux gator3203.hostgator.com 3.12.35.1418868451 #1 SMP Wed Dec 17 20:10:32 CST 2014 x86_64) MySQL: 5.5.42-37.1 Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.9M | 53.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0001.215 (0) Free space on disk containing Updraft's temporary directory: 194725.6 Mb / Free disk space in account: 995286.9 Mb (0.5 % used)
+0001.236 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0001.240 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.370 (0) Requesting semaphore lock (fd)
+0001.410 (0) Set semaphore last lock (fd) time to 2015-07-07 23:18:19
+0001.420 (0) Semaphore lock (fd) complete
+0001.470 (0) Backup run: resumption=0, nonce=c3fd1cf75bcb, begun at=1436311097 (2s ago), job type=backup
+0001.490 (0) Scheduling a resumption (1) after 300 seconds (1436311399) in case this run gets aborted
+0001.600 (0) Checking if we have a zip executable available
+0001.610 (0) Testing: /usr/bin/zip
+0001.642 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.650 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.660 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.670 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0001.680 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0001.720 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0001.727 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0001.870 (0) Working binary zip found: /usr/bin/zip
+0001.886 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.900 (0) Creation of backups of directories: beginning
+0001.930 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0002.320 (0) Free disk space in account: 995286.9 Mb (0.5 % used)
+0007.322 (0) Total entities for the zip file: 973 directories, 5429 files (0 skipped as non-modified), 74.8 Mb
+0007.331 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0007.393 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: size is now: 0.20 Mb
+0007.402 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 100 files added (on-disk size: 218.1 Kb)
+0007.408 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 200 files added (on-disk size: 218.1 Kb)
+0007.415 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 300 files added (on-disk size: 218.1 Kb)
+0007.420 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 400 files added (on-disk size: 218.1 Kb)
+0007.426 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 500 files added (on-disk size: 218.1 Kb)
+0007.429 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 Mb, 5429 files batched, 501 (502) added so far); re-opening (prior size: 218.1 Kb)
+0012.953 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: size is now: 2.70 Mb
+0012.966 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 600 files added (on-disk size: 2739.1 Kb)
+0012.971 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 700 files added (on-disk size: 2739.1 Kb)
+0012.978 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 800 files added (on-disk size: 2739.1 Kb)
+0012.984 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 900 files added (on-disk size: 2739.1 Kb)
+0012.990 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 1000 files added (on-disk size: 2739.1 Kb)
+0012.995 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 Mb, 5429 files batched, 501 (1003) added so far); re-opening (prior size: 2739.1 Kb)
+0018.652 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: size is now: 4.90 Mb
+0018.663 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 1100 files added (on-disk size: 4997.1 Kb)
+0018.669 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 1200 files added (on-disk size: 4997.1 Kb)
+0018.677 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 1300 files added (on-disk size: 4997.1 Kb)
+0018.683 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 1400 files added (on-disk size: 4997.1 Kb)
+0018.688 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 1500 files added (on-disk size: 4997.1 Kb)
+0018.697 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 Mb, 5429 files batched, 501 (1504) added so far); re-opening (prior size: 4997.1 Kb)
+0025.890 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: size is now: 7.10 Mb
+0025.913 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 1600 files added (on-disk size: 7318.8 Kb)
+0025.923 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 1700 files added (on-disk size: 7318.8 Kb)
+0025.933 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 1800 files added (on-disk size: 7318.8 Kb)
+0025.944 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 1900 files added (on-disk size: 7318.8 Kb)
+0025.953 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 2000 files added (on-disk size: 7318.8 Kb)
+0025.960 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 Mb, 5429 files batched, 501 (2005) added so far); re-opening (prior size: 7318.8 Kb)
+0033.981 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: size is now: 10.20 Mb
+0033.993 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 2100 files added (on-disk size: 10399.5 Kb)
+0033.998 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 2200 files added (on-disk size: 10399.5 Kb)
+0034.003 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 2300 files added (on-disk size: 10399.5 Kb)
+0034.008 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 2400 files added (on-disk size: 10399.5 Kb)
+0034.012 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 2500 files added (on-disk size: 10399.5 Kb)
+0034.015 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 Mb, 5429 files batched, 501 (2506) added so far); re-opening (prior size: 10399.5 Kb)
+0042.903 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 2600 files added (on-disk size: 11772.6 Kb)
+0042.913 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 2700 files added (on-disk size: 11772.6 Kb)
+0042.923 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 2800 files added (on-disk size: 11772.6 Kb)
+0042.929 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 2900 files added (on-disk size: 11772.6 Kb)
+0042.953 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 3000 files added (on-disk size: 11772.6 Kb)
+0042.957 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 Mb, 5429 files batched, 501 (3007) added so far); re-opening (prior size: 11772.6 Kb)
+0052.879 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: size is now: 14.40 Mb
+0052.897 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 3100 files added (on-disk size: 14719 Kb)
+0052.902 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 3200 files added (on-disk size: 14719 Kb)
+0052.907 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 3300 files added (on-disk size: 14719 Kb)
+0052.912 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 3400 files added (on-disk size: 14719 Kb)
+0052.917 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 3500 files added (on-disk size: 14719 Kb)
+0052.920 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.3 Mb, 5429 files batched, 501 (3508) added so far); re-opening (prior size: 14719 Kb)
+0061.810 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: size is now: 18.30 Mb
+0061.833 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 3600 files added (on-disk size: 18714.2 Kb)
+0061.843 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 3700 files added (on-disk size: 18714.2 Kb)
+0061.853 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 3800 files added (on-disk size: 18714.2 Kb)
+0061.863 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 3900 files added (on-disk size: 18714.2 Kb)
+0061.876 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 4000 files added (on-disk size: 18714.2 Kb)
+0061.880 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 Mb, 5429 files batched, 501 (4009) added so far); re-opening (prior size: 18714.2 Kb)
+0075.111 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 4100 files added (on-disk size: 22023.3 Kb)
+0075.122 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 4200 files added (on-disk size: 22023.3 Kb)
+0075.128 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 4300 files added (on-disk size: 22023.3 Kb)
+0075.132 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 4400 files added (on-disk size: 22023.3 Kb)
+0075.137 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 4500 files added (on-disk size: 22023.3 Kb)
+0075.140 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 Mb, 5429 files batched, 501 (4510) added so far); re-opening (prior size: 22023.3 Kb)
+0085.653 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 4600 files added (on-disk size: 22574 Kb)
+0085.663 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 4700 files added (on-disk size: 22574 Kb)
+0085.673 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 4800 files added (on-disk size: 22574 Kb)
+0085.683 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 4900 files added (on-disk size: 22574 Kb)
+0085.693 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 5000 files added (on-disk size: 22574 Kb)
+0085.700 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 Mb, 5429 files batched, 501 (5011) added so far); re-opening (prior size: 22574 Kb)
+0098.175 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 5100 files added (on-disk size: 26343 Kb)
+0098.182 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 5200 files added (on-disk size: 26343 Kb)
+0098.188 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 5300 files added (on-disk size: 26343 Kb)
+0098.213 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip.tmp: 5400 files added (on-disk size: 26343 Kb)
+0106.630 (0) Created plugins zip (0) - 28088.9 Kb in 104.3 s (269.3 Kb/s) (SHA1 checksum: b30da7ab548b59e3c8f6cbcecb2bca111906dbf8)
+0106.645 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0106.945 (0) Free disk space in account: 995286.9 Mb (0.5 % used)
+0108.363 (0) Total entities for the zip file: 143 directories, 975 files (0 skipped as non-modified), 14.7 Mb
+0108.368 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0108.373 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0108.377 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0108.382 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0108.388 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0108.390 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 Mb, 975 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0115.727 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: size is now: 2.90 Mb
+0115.742 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: 600 files added (on-disk size: 2942.5 Kb)
+0115.748 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: 700 files added (on-disk size: 2942.5 Kb)
+0115.754 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: 800 files added (on-disk size: 2942.5 Kb)
+0115.760 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: 900 files added (on-disk size: 2942.5 Kb)
+0126.008 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip.tmp: size is now: 10.30 Mb
+0126.251 (0) Created themes zip (0) - 10504 Kb in 19.3 s (544.3 Kb/s) (SHA1 checksum: e0e122993b0239608c3de7b23e414c02ae72be82)
+0126.280 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0126.291 (0) Looking for candidates to back up in: /home4/lcreedon/public_html/keenerjerseys.com/wp-content/uploads
+0126.302 (0) finding files: wpallimport: adding to list (1)
+0126.320 (0) finding files: wc-logs: adding to list (2)
+0126.383 (0) finding files: jckpc-uploads: adding to list (3)
+0126.410 (0) finding files: slp: adding to list (4)
+0126.430 (0) finding files: WooCommerce_Xls_Export: adding to list (5)
+0126.450 (0) finding files: js_composer: adding to list (6)
+0126.470 (0) finding files: GeoIP.dat: adding to list (7)
+0126.480 (0) finding files: wpcf7_captcha: adding to list (8)
+0126.502 (0) finding files: woocommerce_uploads: adding to list (9)
+0126.520 (0) finding files: 2015: adding to list (10)
+0126.530 (0) finding files: redux: adding to list (11)
+0126.540 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0126.908 (0) Free disk space in account: 995286.9 Mb (0.5 % used)
+0128.980 (0) Total entities for the zip file: 39 directories, 3501 files (0 skipped as non-modified), 130.4 Mb
+0128.995 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0129.013 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0129.093 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0129.103 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0129.153 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0129.190 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.2 Mb, 3501 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0141.690 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: size is now: 13.00 Mb
+0141.722 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 600 files added (on-disk size: 13358.3 Kb)
+0141.729 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 700 files added (on-disk size: 13358.3 Kb)
+0141.737 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 800 files added (on-disk size: 13358.3 Kb)
+0141.746 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 900 files added (on-disk size: 13358.3 Kb)
+0141.768 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 1000 files added (on-disk size: 13358.3 Kb)
+0141.778 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.1 Mb, 3501 files batched, 501 (1002) added so far); re-opening (prior size: 13358.3 Kb)
+0154.417 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: size is now: 28.10 Mb
+0154.433 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 1100 files added (on-disk size: 28788.6 Kb)
+0154.443 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 1200 files added (on-disk size: 28788.6 Kb)
+0154.456 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 1300 files added (on-disk size: 28788.6 Kb)
+0154.472 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 1400 files added (on-disk size: 28788.6 Kb)
+0154.488 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 1500 files added (on-disk size: 28788.6 Kb)
+0154.500 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (21 Mb, 3501 files batched, 501 (1503) added so far); re-opening (prior size: 28788.6 Kb)
+0167.150 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: size is now: 48.20 Mb
+0167.183 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 1600 files added (on-disk size: 49342.9 Kb)
+0167.193 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 1700 files added (on-disk size: 49342.9 Kb)
+0167.203 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 1800 files added (on-disk size: 49342.9 Kb)
+0167.213 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 1900 files added (on-disk size: 49342.9 Kb)
+0167.221 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (31.5 Mb, 3501 files batched, 413 (1916) added so far); re-opening (prior size: 49342.9 Kb)
+0187.193 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: size is now: 79.20 Mb
+0187.200 (0) A useful amount of data was added after this amount of zip processing: 20.9 s (normalised: 16.6 s, rate: 1545.1 Kb/s)
+0187.207 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 2000 files added (on-disk size: 81121 Kb)
+0187.212 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 2100 files added (on-disk size: 81121 Kb)
+0187.218 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 2200 files added (on-disk size: 81121 Kb)
+0187.222 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 2300 files added (on-disk size: 81121 Kb)
+0187.228 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 2400 files added (on-disk size: 81121 Kb)
+0187.232 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13 Mb, 3501 files batched, 501 (2417) added so far); re-opening (prior size: 81121 Kb)
+0198.079 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 2500 files added (on-disk size: 93795.6 Kb)
+0198.086 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 2600 files added (on-disk size: 93795.6 Kb)
+0198.091 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 2700 files added (on-disk size: 93795.6 Kb)
+0198.099 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 2800 files added (on-disk size: 93795.6 Kb)
+0198.109 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 2900 files added (on-disk size: 93795.6 Kb)
+0198.113 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 Mb, 3501 files batched, 501 (2918) added so far); re-opening (prior size: 93795.6 Kb)
+0209.695 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 3000 files added (on-disk size: 108666.5 Kb)
+0209.701 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 3100 files added (on-disk size: 108666.5 Kb)
+0209.707 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 3200 files added (on-disk size: 108666.5 Kb)
+0209.714 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 3300 files added (on-disk size: 108666.5 Kb)
+0209.723 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 3400 files added (on-disk size: 108666.5 Kb)
+0209.730 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.6 Mb, 3501 files batched, 501 (3419) added so far); re-opening (prior size: 108666.5 Kb)
+0220.475 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip.tmp: 3500 files added (on-disk size: 123101.6 Kb)
+0224.776 (0) Created uploads zip (0) - 125920.6 Kb in 97.9 s (1286.8 Kb/s) (SHA1 checksum: 293ed70f3928789e2d11d7a9b5c4952e5f0b70cf)
+0224.783 (0) Beginning backup of other directories found in the content directory (index: 0)
+0224.785 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0224.787 (0) Looking for candidates to back up in: /home4/lcreedon/public_html/keenerjerseys.com/wp-content
+0224.789 (0) finding files: wp-cache-config.php: adding to list (1)
+0224.792 (0) finding files: gallery: adding to list (2)
+0224.794 (0) finding files: uploads: skipping: this is the uploads directory
+0224.796 (0) finding files: 761d9c903b-wprbackups: skipping: excluded by options (glob)
+0224.798 (0) finding files: themes: skipping: this is the themes directory
+0224.801 (0) finding files: ngg_styles: adding to list (3)
+0224.803 (0) finding files: upgrade: skipping: excluded by options
+0224.805 (0) finding files: ngg: adding to list (4)
+0224.807 (0) finding files: plugins: skipping: this is the plugins directory
+0224.809 (0) finding files: advanced-cache.php: adding to list (5)
+0224.812 (0) finding files: index.php: adding to list (6)
+0224.815 (0) finding files: cache: skipping: excluded by options
+0224.817 (0) finding files: updraft: skipping: this is the updraft directory
+0225.080 (0) Free disk space in account: 995286.9 Mb (0.5 % used)
+0226.079 (0) Total entities for the zip file: 92 directories, 491 files (0 skipped as non-modified), 21.5 Mb
+0226.086 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0226.091 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0226.098 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0226.108 (0) Zip: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0237.048 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip.tmp: size is now: 21.50 Mb
+0237.230 (0) Created others zip (0) - 22013.3 Kb in 12.1 s (1812.9 Kb/s) (SHA1 checksum: 49365c41d5e61ce8763817c18cd158bd330f3909)
+0237.246 (0) Saving backup status to database (elements: 8)
+0237.253 (0) Beginning creation of database dump (WordPress DB)
+0237.258 (0) Testing: /usr/bin/mysqldump
+0237.285 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0237.303 (0) Table wp_options: Total expected rows (approximate): 2045
+0237.366 (0) Table wp_options: Total rows added: 1321 in 0.06 seconds
+0237.369 (0) Table wp_options: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_options.table.gz - 62.5 Kb)
+0237.379 (0) Table wp_users: Total expected rows (approximate): 3
+0237.384 (0) Table wp_users: Total rows added: 3 in 0.00 seconds
+0237.385 (0) Table wp_users: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_users.table.gz - 0.7 Kb)
+0237.393 (0) Table wp_usermeta: Total expected rows (approximate): 118
+0237.401 (0) Table wp_usermeta: Total rows added: 118 in 0.01 seconds
+0237.404 (0) Table wp_usermeta: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_usermeta.table.gz - 3 Kb)
+0237.417 (0) Table wp_commentmeta: Total expected rows (approximate): 20
+0237.422 (0) Table wp_commentmeta: Total rows added: 18 in 0.00 seconds
+0237.425 (0) Table wp_commentmeta: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_commentmeta.table.gz - 1.7 Kb)
+0237.436 (0) Table wp_comments: Total expected rows (approximate): 6
+0237.442 (0) Table wp_comments: Total rows added: 6 in 0.00 seconds
+0237.446 (0) Table wp_comments: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_comments.table.gz - 1.5 Kb)
+0237.456 (0) Table wp_links: Total expected rows (approximate): 0
+0237.485 (0) Table wp_links: Total rows added: 0 in 0.03 seconds
+0237.490 (0) Table wp_links: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_links.table.gz - 0.4 Kb)
+0237.520 (0) Table wp_postmeta: Total expected rows (approximate): 15335
+0237.880 (0) Table wp_postmeta: binary mysqldump finished (writes: 33) in 0.35 seconds
+0237.891 (0) Table wp_postmeta: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_postmeta.table.gz - 145.7 Kb)
+0237.922 (0) Table wp_posts: Total expected rows (approximate): 1465
+0238.403 (0) Table wp_posts: Total rows added: 1476 in 0.48 seconds
+0238.411 (0) Table wp_posts: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_posts.table.gz - 88.2 Kb)
+0238.460 (0) Table wp_term_relationships: Total expected rows (approximate): 1435
+0238.572 (0) Table wp_term_relationships: Total rows added: 1583 in 0.10 seconds
+0238.578 (0) Table wp_term_relationships: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_term_relationships.table.gz - 4.2 Kb)
+0238.611 (0) Table wp_term_taxonomy: Total expected rows (approximate): 181
+0238.640 (0) Table wp_term_taxonomy: Total rows added: 181 in 0.02 seconds
+0238.650 (0) Table wp_term_taxonomy: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_term_taxonomy.table.gz - 2 Kb)
+0238.661 (0) Table wp_terms: Total expected rows (approximate): 181
+0238.671 (0) Table wp_terms: Total rows added: 181 in 0.01 seconds
+0238.674 (0) Table wp_terms: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_terms.table.gz - 2.3 Kb)
+0238.695 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0238.699 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0238.702 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.3 Kb)
+0238.715 (0) Table wp_woocommerce_termmeta: Total expected rows (approximate): 314
+0238.733 (0) Table wp_woocommerce_termmeta: Total rows added: 314 in 0.01 seconds
+0238.737 (0) Table wp_woocommerce_termmeta: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_termmeta.table.gz - 2.5 Kb)
+0238.752 (0) Table wp_ngg_album: Total expected rows (approximate): 22
+0238.759 (0) Table wp_ngg_album: Total rows added: 22 in 0.00 seconds
+0238.762 (0) Table wp_ngg_album: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_ngg_album.table.gz - 0.9 Kb)
+0238.780 (0) Table wp_ngg_gallery: Total expected rows (approximate): 22
+0238.796 (0) Table wp_ngg_gallery: Total rows added: 22 in 0.01 seconds
+0238.800 (0) Table wp_ngg_gallery: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_ngg_gallery.table.gz - 1 Kb)
+0238.815 (0) Table wp_ngg_pictures: Total expected rows (approximate): 114
+0238.835 (0) Table wp_ngg_pictures: Total rows added: 114 in 0.02 seconds
+0238.839 (0) Table wp_ngg_pictures: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_ngg_pictures.table.gz - 15.1 Kb)
+0238.854 (0) Table wp_pmxi_files: Total expected rows (approximate): 2
+0238.860 (0) Table wp_pmxi_files: Total rows added: 2 in 0.00 seconds
+0238.863 (0) Table wp_pmxi_files: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_pmxi_files.table.gz - 0.5 Kb)
+0238.878 (0) Table wp_pmxi_history: Total expected rows (approximate): 3
+0238.882 (0) Table wp_pmxi_history: Total rows added: 3 in 0.00 seconds
+0238.885 (0) Table wp_pmxi_history: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_pmxi_history.table.gz - 0.5 Kb)
+0238.894 (0) Table wp_pmxi_imports: Total expected rows (approximate): 2
+0238.900 (0) Table wp_pmxi_imports: Total rows added: 2 in 0.00 seconds
+0238.903 (0) Table wp_pmxi_imports: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_pmxi_imports.table.gz - 3 Kb)
+0238.913 (0) Table wp_pmxi_posts: Total expected rows (approximate): 128
+0238.922 (0) Table wp_pmxi_posts: Total rows added: 128 in 0.01 seconds
+0238.927 (0) Table wp_pmxi_posts: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_pmxi_posts.table.gz - 1.7 Kb)
+0238.937 (0) Table wp_pmxi_templates: Total expected rows (approximate): 2
+0238.942 (0) Table wp_pmxi_templates: Total rows added: 2 in 0.00 seconds
+0238.945 (0) Table wp_pmxi_templates: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_pmxi_templates.table.gz - 2.7 Kb)
+0238.961 (0) Table wp_redirection_404: Total expected rows (approximate): 601
+0238.993 (0) Table wp_redirection_404: Total rows added: 601 in 0.03 seconds
+0238.997 (0) Table wp_redirection_404: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_redirection_404.table.gz - 13.1 Kb)
+0239.010 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+0239.039 (0) Table wp_redirection_groups: Total rows added: 2 in 0.02 seconds
+0239.050 (0) Table wp_redirection_groups: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_redirection_groups.table.gz - 0.4 Kb)
+0239.068 (0) Table wp_redirection_items: Total expected rows (approximate): 22
+0239.075 (0) Table wp_redirection_items: Total rows added: 22 in 0.00 seconds
+0239.078 (0) Table wp_redirection_items: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_redirection_items.table.gz - 1.3 Kb)
+0239.093 (0) Table wp_redirection_logs: Total expected rows (approximate): 139
+0239.107 (0) Table wp_redirection_logs: Total rows added: 139 in 0.01 seconds
+0239.121 (0) Table wp_redirection_logs: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_redirection_logs.table.gz - 4.1 Kb)
+0239.160 (0) Table wp_redirection_modules: Total expected rows (approximate): 2
+0239.188 (0) Table wp_redirection_modules: Total rows added: 2 in 0.02 seconds
+0239.199 (0) Table wp_redirection_modules: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_redirection_modules.table.gz - 0.4 Kb)
+0239.209 (0) Table wp_revslider_css: Total expected rows (approximate): 49
+0239.216 (0) Table wp_revslider_css: Total rows added: 49 in 0.00 seconds
+0239.219 (0) Table wp_revslider_css: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_css.table.gz - 1.8 Kb)
+0239.231 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 1
+0239.235 (0) Table wp_revslider_layer_animations: Total rows added: 1 in 0.00 seconds
+0239.238 (0) Table wp_revslider_layer_animations: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_layer_animations.table.gz - 0.4 Kb)
+0239.257 (0) Table wp_revslider_settings: Total expected rows (approximate): 1
+0239.261 (0) Table wp_revslider_settings: Total rows added: 1 in 0.00 seconds
+0239.265 (0) Table wp_revslider_settings: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_settings.table.gz - 0.3 Kb)
+0239.277 (0) Table wp_revslider_sliders: Total expected rows (approximate): 1
+0239.281 (0) Table wp_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0239.286 (0) Table wp_revslider_sliders: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_sliders.table.gz - 1.4 Kb)
+0239.322 (0) Table wp_revslider_slides: Total expected rows (approximate): 1
+0239.327 (0) Table wp_revslider_slides: Total rows added: 1 in 0.00 seconds
+0239.335 (0) Table wp_revslider_slides: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_slides.table.gz - 0.7 Kb)
+0239.360 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0239.410 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.04 seconds
+0239.416 (0) Table wp_revslider_static_slides: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_static_slides.table.gz - 0.3 Kb)
+0239.470 (0) Table wp_slp_extendo_meta: Total expected rows (approximate): 0
+0239.510 (0) Table wp_slp_extendo_meta: Total rows added: 0 in 0.03 seconds
+0239.520 (0) Table wp_slp_extendo_meta: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_slp_extendo_meta.table.gz - 0.3 Kb)
+0239.549 (0) Table wp_store_locator: Total expected rows (approximate): 2
+0239.558 (0) Table wp_store_locator: Total rows added: 2 in 0.00 seconds
+0239.566 (0) Table wp_store_locator: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_store_locator.table.gz - 0.7 Kb)
+0239.577 (0) Table wp_visual_form_builder_entries: Total expected rows (approximate): 27
+0239.626 (0) Table wp_visual_form_builder_entries: Total rows added: 27 in 0.03 seconds
+0239.635 (0) Table wp_visual_form_builder_entries: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_visual_form_builder_entries.table.gz - 3.9 Kb)
+0239.661 (0) Table wp_visual_form_builder_fields: Total expected rows (approximate): 64
+0239.684 (0) Table wp_visual_form_builder_fields: Total rows added: 64 in 0.02 seconds
+0239.688 (0) Table wp_visual_form_builder_fields: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_visual_form_builder_fields.table.gz - 1.3 Kb)
+0239.699 (0) Table wp_visual_form_builder_forms: Total expected rows (approximate): 8
+0239.704 (0) Table wp_visual_form_builder_forms: Total rows added: 8 in 0.00 seconds
+0239.707 (0) Table wp_visual_form_builder_forms: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_visual_form_builder_forms.table.gz - 0.9 Kb)
+0239.740 (0) Table wp_woo_export_xls_archive: Total expected rows (approximate): 1
+0239.790 (0) Table wp_woo_export_xls_archive: Total rows added: 1 in 0.04 seconds
+0239.800 (0) Table wp_woo_export_xls_archive: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woo_export_xls_archive.table.gz - 0.5 Kb)
+0239.831 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 2
+0239.890 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 2 in 0.05 seconds
+0239.900 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 Kb)
+0239.940 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0239.969 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.02 seconds
+0239.978 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.4 Kb)
+0240.020 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0240.050 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.02 seconds
+0240.060 (0) Table wp_woocommerce_order_items: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_order_items.table.gz - 0.3 Kb)
+0240.100 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0240.130 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.02 seconds
+0240.139 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.3 Kb)
+0240.174 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0240.220 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.03 seconds
+0240.230 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 Kb)
+0240.280 (0) Table wp_wpcreviews: Total expected rows (approximate): 1
+0240.340 (0) Table wp_wpcreviews: Total rows added: 1 in 0.05 seconds
+0240.350 (0) Table wp_wpcreviews: finishing file (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_wpcreviews.table.gz - 0.6 Kb)
+0240.381 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_options.table.gz (1/44): adding to final database dump
+0240.447 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_users.table.gz (2/44): adding to final database dump
+0240.452 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_usermeta.table.gz (3/44): adding to final database dump
+0240.467 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_commentmeta.table.gz (4/44): adding to final database dump
+0240.477 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_comments.table.gz (5/44): adding to final database dump
+0240.482 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_links.table.gz (6/44): adding to final database dump
+0240.486 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_postmeta.table.gz (7/44): adding to final database dump
+0240.576 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_posts.table.gz (8/44): adding to final database dump
+0240.626 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_term_relationships.table.gz (9/44): adding to final database dump
+0240.641 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_term_taxonomy.table.gz (10/44): adding to final database dump
+0240.651 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_terms.table.gz (11/44): adding to final database dump
+0240.659 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_order_itemmeta.table.gz (12/44): adding to final database dump
+0240.670 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_termmeta.table.gz (13/44): adding to final database dump
+0240.683 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_ngg_album.table.gz (14/44): adding to final database dump
+0240.691 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_ngg_gallery.table.gz (15/44): adding to final database dump
+0240.701 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_ngg_pictures.table.gz (16/44): adding to final database dump
+0240.726 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_pmxi_files.table.gz (17/44): adding to final database dump
+0240.741 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_pmxi_history.table.gz (18/44): adding to final database dump
+0240.745 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_pmxi_imports.table.gz (19/44): adding to final database dump
+0240.749 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_pmxi_posts.table.gz (20/44): adding to final database dump
+0240.754 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_pmxi_templates.table.gz (21/44): adding to final database dump
+0240.758 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_redirection_404.table.gz (22/44): adding to final database dump
+0240.772 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_redirection_groups.table.gz (23/44): adding to final database dump
+0240.776 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_redirection_items.table.gz (24/44): adding to final database dump
+0240.780 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_redirection_logs.table.gz (25/44): adding to final database dump
+0240.793 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_redirection_modules.table.gz (26/44): adding to final database dump
+0240.800 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_css.table.gz (27/44): adding to final database dump
+0240.812 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_layer_animations.table.gz (28/44): adding to final database dump
+0240.827 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_settings.table.gz (29/44): adding to final database dump
+0240.832 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_sliders.table.gz (30/44): adding to final database dump
+0240.841 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_slides.table.gz (31/44): adding to final database dump
+0240.851 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_revslider_static_slides.table.gz (32/44): adding to final database dump
+0240.861 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_slp_extendo_meta.table.gz (33/44): adding to final database dump
+0240.871 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_store_locator.table.gz (34/44): adding to final database dump
+0240.881 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_visual_form_builder_entries.table.gz (35/44): adding to final database dump
+0240.892 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_visual_form_builder_fields.table.gz (36/44): adding to final database dump
+0240.901 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_visual_form_builder_forms.table.gz (37/44): adding to final database dump
+0240.911 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woo_export_xls_archive.table.gz (38/44): adding to final database dump
+0240.929 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_attribute_taxonomies.table.gz (39/44): adding to final database dump
+0240.935 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (40/44): adding to final database dump
+0240.939 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_order_items.table.gz (41/44): adding to final database dump
+0240.943 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_tax_rate_locations.table.gz (42/44): adding to final database dump
+0240.946 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_woocommerce_tax_rates.table.gz (43/44): adding to final database dump
+0240.950 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db-table-wp_wpcreviews.table.gz (44/44): adding to final database dump
+0240.954 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db.gz: finished writing out complete database file (336 Kb)
+0240.972 (0) Total database tables backed up: 44 (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db.gz, size: 371978, checksum (SHA1): fc410088281b0a09b8ebb1bc8f1a6be955bf8804)
+0240.983 (0) Saving backup history
+0240.995 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0240.998 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0241.001 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0241.004 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip: others: This file has not yet been successfully uploaded: will queue
+0241.006 (0) backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db.gz: db: This file has not yet been successfully uploaded: will queue
+0241.013 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0241.020 (0) Cloud backup selection (1/1): dropbox (last)
+0241.023 (0) Beginning dispatch of backup to remote (dropbox)
+0241.025 (0) Dropbox: begin cloud upload
+0241.032 (0) Dropbox: access gained
+0241.374 (0) Dropbox quota usage: normal=4460.7 Mb, shared=0 Mb, total=1050880 Mb, available=1046419.3 Mb
+0241.380 (0) Dropbox: Attempt to upload: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip to: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip
+0243.310 (0) Dropbox chunked upload: 3.6 % uploaded (72QB2IVKGUXB1erTFZjY-A, 1048576)
+0245.278 (0) Dropbox chunked upload: 7.3 % uploaded (72QB2IVKGUXB1erTFZjY-A, 2097152)
+0247.304 (0) Dropbox chunked upload: 10.9 % uploaded (72QB2IVKGUXB1erTFZjY-A, 3145728)
+0250.612 (0) Dropbox chunked upload: 14.6 % uploaded (72QB2IVKGUXB1erTFZjY-A, 4194304)
+0252.282 (0) Dropbox chunked upload: 18.2 % uploaded (72QB2IVKGUXB1erTFZjY-A, 5242880)
+0254.190 (0) Dropbox chunked upload: 21.9 % uploaded (72QB2IVKGUXB1erTFZjY-A, 6291456)
+0256.287 (0) Dropbox chunked upload: 25.5 % uploaded (72QB2IVKGUXB1erTFZjY-A, 7340032)
+0259.630 (0) The scheduled resumption is within 45 seconds - will reschedule
+0259.638 (0) Rescheduling resumption 1: moving to 345 seconds from now (1436311702)
+0259.649 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0259.653 (0) Dropbox chunked upload: 29.2 % uploaded (72QB2IVKGUXB1erTFZjY-A, 8388608)
+0261.314 (0) Dropbox chunked upload: 32.8 % uploaded (72QB2IVKGUXB1erTFZjY-A, 9437184)
+0263.519 (0) Dropbox chunked upload: 36.5 % uploaded (72QB2IVKGUXB1erTFZjY-A, 10485760)
+0265.660 (0) Dropbox chunked upload: 40.1 % uploaded (72QB2IVKGUXB1erTFZjY-A, 11534336)
+0268.489 (0) Dropbox chunked upload: 43.7 % uploaded (72QB2IVKGUXB1erTFZjY-A, 12582912)
+0270.120 (0) Dropbox chunked upload: 47.4 % uploaded (72QB2IVKGUXB1erTFZjY-A, 13631488)
+0271.862 (0) Dropbox chunked upload: 51 % uploaded (72QB2IVKGUXB1erTFZjY-A, 14680064)
+0273.834 (0) Dropbox chunked upload: 54.7 % uploaded (72QB2IVKGUXB1erTFZjY-A, 15728640)
+0276.657 (0) Dropbox chunked upload: 58.3 % uploaded (72QB2IVKGUXB1erTFZjY-A, 16777216)
+0278.366 (0) Dropbox chunked upload: 62 % uploaded (72QB2IVKGUXB1erTFZjY-A, 17825792)
+0280.348 (0) Dropbox chunked upload: 65.6 % uploaded (72QB2IVKGUXB1erTFZjY-A, 18874368)
+0282.214 (0) Dropbox chunked upload: 69.3 % uploaded (72QB2IVKGUXB1erTFZjY-A, 19922944)
+0285.315 (0) Dropbox chunked upload: 72.9 % uploaded (72QB2IVKGUXB1erTFZjY-A, 20971520)
+0286.963 (0) Dropbox chunked upload: 76.6 % uploaded (72QB2IVKGUXB1erTFZjY-A, 22020096)
+0289.090 (0) Dropbox chunked upload: 80.2 % uploaded (72QB2IVKGUXB1erTFZjY-A, 23068672)
+0291.171 (0) Dropbox chunked upload: 83.8 % uploaded (72QB2IVKGUXB1erTFZjY-A, 24117248)
+0294.467 (0) Dropbox chunked upload: 87.5 % uploaded (72QB2IVKGUXB1erTFZjY-A, 25165824)
+0296.135 (0) Dropbox chunked upload: 91.1 % uploaded (72QB2IVKGUXB1erTFZjY-A, 26214400)
+0298.324 (0) Dropbox chunked upload: 94.8 % uploaded (72QB2IVKGUXB1erTFZjY-A, 27262976)
+0300.262 (0) Dropbox chunked upload: 98.4 % uploaded (72QB2IVKGUXB1erTFZjY-A, 28311552)
+0302.051 (0) Dropbox chunked upload: 100 % uploaded (72QB2IVKGUXB1erTFZjY-A, 28763052)
+0304.826 (0) Recording as successfully uploaded: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip (a3b25a3787f1ee2cd72dd936f5d2f127)
+0304.878 (0) Deleting local file: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip: OK
+0304.882 (0) Dropbox: File upload success (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-plugins.zip): 28088 Kb in 63s (442 Kb/s)
+0305.107 (0) Dropbox quota usage: normal=4488.1 Mb, shared=0 Mb, total=1050880 Mb, available=1046391.9 Mb
+0305.112 (0) Dropbox: Attempt to upload: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip to: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip
+0306.838 (0) Dropbox chunked upload: 9.7 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 1048576)
+0308.778 (0) Dropbox chunked upload: 19.5 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 2097152)
+0310.830 (0) Dropbox chunked upload: 29.2 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 3145728)
+0314.240 (0) Dropbox chunked upload: 39 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 4194304)
+0315.855 (0) The time we have been running (315.7) is approaching the resumption interval (345) - increasing resumption interval to 346
+0315.870 (0) Dropbox chunked upload: 48.7 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 5242880)
+0317.840 (0) The time we have been running (317.7) is approaching the resumption interval (346) - increasing resumption interval to 348
+0317.860 (0) Dropbox chunked upload: 58.5 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 6291456)
+0319.880 (0) The time we have been running (319.7) is approaching the resumption interval (348) - increasing resumption interval to 350
+0319.900 (0) Dropbox chunked upload: 68.2 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 7340032)
+0322.905 (0) The time we have been running (322.7) is approaching the resumption interval (350) - increasing resumption interval to 353
+0322.920 (0) Dropbox chunked upload: 78 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 8388608)
+0324.610 (0) The time we have been running (324.4) is approaching the resumption interval (353) - increasing resumption interval to 355
+0324.617 (0) Dropbox chunked upload: 87.7 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 9437184)
+0326.749 (0) The time we have been running (326.6) is approaching the resumption interval (355) - increasing resumption interval to 357
+0326.755 (0) Dropbox chunked upload: 97.5 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 10485760)
+0328.414 (0) The time we have been running (328.2) is approaching the resumption interval (357) - increasing resumption interval to 359
+0328.430 (0) Dropbox chunked upload: 100 % uploaded (rNfFHndRnXpPnNCYiVeLXw, 10756110)
+0331.011 (0) Recording as successfully uploaded: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip (048229a3e54eae6f8a63642f7779b2a5)
+0331.031 (0) Deleting local file: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip: OK
+0331.036 (0) Dropbox: File upload success (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-themes.zip): 10504 Kb in 25s (405 Kb/s)
+0331.259 (0) Dropbox quota usage: normal=4523.6 Mb, shared=0 Mb, total=1050880 Mb, available=1046356.4 Mb
+0331.263 (0) Dropbox: Attempt to upload: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip to: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip
+0332.876 (0) The time we have been running (332.7) is approaching the resumption interval (359) - increasing resumption interval to 363
+0332.883 (0) Dropbox chunked upload: 0.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 1048576)
+0334.890 (0) The time we have been running (334.7) is approaching the resumption interval (363) - increasing resumption interval to 365
+0334.905 (0) Dropbox chunked upload: 1.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 2097152)
+0337.609 (0) The time we have been running (337.4) is approaching the resumption interval (365) - increasing resumption interval to 368
+0337.616 (0) Dropbox chunked upload: 2.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 3145728)
+0340.656 (0) The time we have been running (340.5) is approaching the resumption interval (368) - increasing resumption interval to 371
+0340.664 (0) Dropbox chunked upload: 3.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 4194304)
+0342.480 (0) The time we have been running (342.2) is approaching the resumption interval (371) - increasing resumption interval to 373
+0342.545 (0) Dropbox chunked upload: 4.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 5242880)
+0344.504 (0) The time we have been running (344.3) is approaching the resumption interval (373) - increasing resumption interval to 375
+0344.512 (0) Dropbox chunked upload: 4.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 6291456)
+0347.040 (0) The time we have been running (346.8) is approaching the resumption interval (375) - increasing resumption interval to 377
+0347.056 (0) Dropbox chunked upload: 5.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 7340032)
+0350.027 (0) The time we have been running (349.8) is approaching the resumption interval (377) - increasing resumption interval to 380
+0350.034 (0) Dropbox chunked upload: 6.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 8388608)
+0351.800 (0) The time we have been running (351.6) is approaching the resumption interval (380) - increasing resumption interval to 382
+0351.820 (0) Dropbox chunked upload: 7.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 9437184)
+0353.670 (0) The time we have been running (353.5) is approaching the resumption interval (382) - increasing resumption interval to 384
+0353.690 (0) Dropbox chunked upload: 8.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 10485760)
+0355.960 (0) The time we have been running (355.8) is approaching the resumption interval (384) - increasing resumption interval to 386
+0356.000 (0) Dropbox chunked upload: 8.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 11534336)
+0360.627 (0) The time we have been running (360.4) is approaching the resumption interval (386) - increasing resumption interval to 391
+0360.660 (0) Dropbox chunked upload: 9.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 12582912)
+0362.538 (0) The time we have been running (362.3) is approaching the resumption interval (391) - increasing resumption interval to 393
+0362.559 (0) Dropbox chunked upload: 10.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 13631488)
+0364.970 (0) The time we have been running (364.8) is approaching the resumption interval (393) - increasing resumption interval to 395
+0364.979 (0) Dropbox chunked upload: 11.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 14680064)
+0366.933 (0) The time we have been running (366.7) is approaching the resumption interval (395) - increasing resumption interval to 397
+0366.945 (0) Dropbox chunked upload: 12.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 15728640)
+0370.047 (0) The time we have been running (369.9) is approaching the resumption interval (397) - increasing resumption interval to 400
+0370.057 (0) Dropbox chunked upload: 13 % uploaded (c7oeZS172VdoS8o-O7UB-g, 16777216)
+0371.643 (0) The time we have been running (371.5) is approaching the resumption interval (400) - increasing resumption interval to 402
+0371.652 (0) Dropbox chunked upload: 13.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 17825792)
+0373.509 (0) The time we have been running (373.3) is approaching the resumption interval (402) - increasing resumption interval to 404
+0373.515 (0) Dropbox chunked upload: 14.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 18874368)
+0375.505 (0) The time we have been running (375.3) is approaching the resumption interval (404) - increasing resumption interval to 406
+0375.527 (0) Dropbox chunked upload: 15.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 19922944)
+0378.564 (0) The time we have been running (378.4) is approaching the resumption interval (406) - increasing resumption interval to 409
+0378.572 (0) Dropbox chunked upload: 16.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 20971520)
+0380.139 (0) The time we have been running (380) is approaching the resumption interval (409) - increasing resumption interval to 410
+0380.146 (0) Dropbox chunked upload: 17.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 22020096)
+0381.877 (0) The time we have been running (381.7) is approaching the resumption interval (410) - increasing resumption interval to 412
+0381.884 (0) Dropbox chunked upload: 17.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 23068672)
+0383.870 (0) The time we have been running (383.7) is approaching the resumption interval (412) - increasing resumption interval to 414
+0383.890 (0) Dropbox chunked upload: 18.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 24117248)
+0386.686 (0) The time we have been running (386.5) is approaching the resumption interval (414) - increasing resumption interval to 417
+0386.700 (0) Dropbox chunked upload: 19.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 25165824)
+0388.696 (0) The time we have been running (388.5) is approaching the resumption interval (417) - increasing resumption interval to 419
+0388.702 (0) Dropbox chunked upload: 20.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 26214400)
+0390.454 (0) The time we have been running (390.3) is approaching the resumption interval (419) - increasing resumption interval to 421
+0390.460 (0) Dropbox chunked upload: 21.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 27262976)
+0392.508 (0) The time we have been running (392.3) is approaching the resumption interval (421) - increasing resumption interval to 423
+0392.515 (0) Dropbox chunked upload: 22 % uploaded (c7oeZS172VdoS8o-O7UB-g, 28311552)
+0395.865 (0) The time we have been running (395.7) is approaching the resumption interval (423) - increasing resumption interval to 426
+0395.873 (0) Dropbox chunked upload: 22.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 29360128)
+0397.495 (0) The time we have been running (397.3) is approaching the resumption interval (426) - increasing resumption interval to 428
+0397.504 (0) Dropbox chunked upload: 23.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 30408704)
+0399.218 (0) The time we have been running (399) is approaching the resumption interval (428) - increasing resumption interval to 430
+0399.226 (0) Dropbox chunked upload: 24.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 31457280)
+0400.983 (0) The time we have been running (400.8) is approaching the resumption interval (430) - increasing resumption interval to 431
+0400.992 (0) Dropbox chunked upload: 25.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 32505856)
+0403.961 (0) The time we have been running (403.8) is approaching the resumption interval (431) - increasing resumption interval to 434
+0404.052 (0) Dropbox chunked upload: 26 % uploaded (c7oeZS172VdoS8o-O7UB-g, 33554432)
+0405.944 (0) The time we have been running (405.8) is approaching the resumption interval (434) - increasing resumption interval to 436
+0405.952 (0) Dropbox chunked upload: 26.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 34603008)
+0407.900 (0) The time we have been running (407.7) is approaching the resumption interval (436) - increasing resumption interval to 438
+0407.917 (0) Dropbox chunked upload: 27.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 35651584)
+0409.704 (0) The time we have been running (409.5) is approaching the resumption interval (438) - increasing resumption interval to 440
+0409.709 (0) Dropbox chunked upload: 28.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 36700160)
+0413.094 (0) The time we have been running (412.9) is approaching the resumption interval (440) - increasing resumption interval to 443
+0413.101 (0) Dropbox chunked upload: 29.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 37748736)
+0414.656 (0) The time we have been running (414.5) is approaching the resumption interval (443) - increasing resumption interval to 445
+0414.663 (0) Dropbox chunked upload: 30.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 38797312)
+0416.564 (0) The time we have been running (416.4) is approaching the resumption interval (445) - increasing resumption interval to 447
+0416.573 (0) Dropbox chunked upload: 30.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 39845888)
+0418.533 (0) The time we have been running (418.4) is approaching the resumption interval (447) - increasing resumption interval to 449
+0418.539 (0) Dropbox chunked upload: 31.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 40894464)
+0421.210 (0) The time we have been running (421) is approaching the resumption interval (449) - increasing resumption interval to 452
+0421.223 (0) Dropbox chunked upload: 32.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 41943040)
+0422.883 (0) The time we have been running (422.7) is approaching the resumption interval (452) - increasing resumption interval to 453
+0422.890 (0) Dropbox chunked upload: 33.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 42991616)
+0424.750 (0) The time we have been running (424.6) is approaching the resumption interval (453) - increasing resumption interval to 455
+0424.770 (0) Dropbox chunked upload: 34.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 44040192)
+0426.929 (0) The time we have been running (426.7) is approaching the resumption interval (455) - increasing resumption interval to 457
+0426.956 (0) Dropbox chunked upload: 35 % uploaded (c7oeZS172VdoS8o-O7UB-g, 45088768)
+0430.136 (0) The time we have been running (430) is approaching the resumption interval (457) - increasing resumption interval to 460
+0430.145 (0) Dropbox chunked upload: 35.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 46137344)
+0431.997 (0) The time we have been running (431.8) is approaching the resumption interval (460) - increasing resumption interval to 462
+0432.005 (0) Dropbox chunked upload: 36.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 47185920)
+0433.812 (0) The time we have been running (433.6) is approaching the resumption interval (462) - increasing resumption interval to 464
+0433.833 (0) Dropbox chunked upload: 37.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 48234496)
+0435.897 (0) The time we have been running (435.7) is approaching the resumption interval (464) - increasing resumption interval to 466
+0435.905 (0) Dropbox chunked upload: 38.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 49283072)
+0439.166 (0) The time we have been running (439) is approaching the resumption interval (466) - increasing resumption interval to 469
+0439.174 (0) Dropbox chunked upload: 39 % uploaded (c7oeZS172VdoS8o-O7UB-g, 50331648)
+0440.705 (0) The time we have been running (440.5) is approaching the resumption interval (469) - increasing resumption interval to 471
+0440.712 (0) Dropbox chunked upload: 39.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 51380224)
+0442.359 (0) The time we have been running (442.2) is approaching the resumption interval (471) - increasing resumption interval to 473
+0442.367 (0) Dropbox chunked upload: 40.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 52428800)
+0444.580 (0) The time we have been running (444.4) is approaching the resumption interval (473) - increasing resumption interval to 475
+0444.600 (0) Dropbox chunked upload: 41.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 53477376)
+0447.780 (0) The time we have been running (447.6) is approaching the resumption interval (475) - increasing resumption interval to 478
+0447.800 (0) Dropbox chunked upload: 42.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 54525952)
+0449.353 (0) The time we have been running (449.2) is approaching the resumption interval (478) - increasing resumption interval to 480
+0449.361 (0) Dropbox chunked upload: 43.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 55574528)
+0451.217 (0) The time we have been running (451) is approaching the resumption interval (480) - increasing resumption interval to 482
+0451.225 (0) Dropbox chunked upload: 43.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 56623104)
+0453.292 (0) The time we have been running (453.1) is approaching the resumption interval (482) - increasing resumption interval to 484
+0453.298 (0) Dropbox chunked upload: 44.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 57671680)
+0456.102 (0) The time we have been running (455.9) is approaching the resumption interval (484) - increasing resumption interval to 486
+0456.108 (0) Dropbox chunked upload: 45.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 58720256)
+0457.572 (0) The time we have been running (457.4) is approaching the resumption interval (486) - increasing resumption interval to 488
+0457.579 (0) Dropbox chunked upload: 46.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 59768832)
+0460.016 (0) The time we have been running (459.8) is approaching the resumption interval (488) - increasing resumption interval to 490
+0460.023 (0) Dropbox chunked upload: 47.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 60817408)
+0461.995 (0) The time we have been running (461.8) is approaching the resumption interval (490) - increasing resumption interval to 492
+0462.001 (0) Dropbox chunked upload: 48 % uploaded (c7oeZS172VdoS8o-O7UB-g, 61865984)
+0465.177 (0) The time we have been running (465) is approaching the resumption interval (492) - increasing resumption interval to 496
+0465.183 (0) Dropbox chunked upload: 48.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 62914560)
+0466.800 (0) The time we have been running (466.6) is approaching the resumption interval (496) - increasing resumption interval to 497
+0466.820 (0) Dropbox chunked upload: 49.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 63963136)
+0468.644 (0) The time we have been running (468.5) is approaching the resumption interval (497) - increasing resumption interval to 499
+0468.650 (0) Dropbox chunked upload: 50.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 65011712)
+0470.603 (0) The time we have been running (470.4) is approaching the resumption interval (499) - increasing resumption interval to 501
+0470.608 (0) Dropbox chunked upload: 51.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 66060288)
+0474.829 (0) The time we have been running (474.7) is approaching the resumption interval (501) - increasing resumption interval to 505
+0474.836 (0) Dropbox chunked upload: 52 % uploaded (c7oeZS172VdoS8o-O7UB-g, 67108864)
+0476.388 (0) The time we have been running (476.2) is approaching the resumption interval (505) - increasing resumption interval to 507
+0476.394 (0) Dropbox chunked upload: 52.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 68157440)
+0478.180 (0) The time we have been running (478) is approaching the resumption interval (507) - increasing resumption interval to 508
+0478.200 (0) Dropbox chunked upload: 53.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 69206016)
+0480.549 (0) The time we have been running (480.4) is approaching the resumption interval (508) - increasing resumption interval to 511
+0480.570 (0) Dropbox chunked upload: 54.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 70254592)
+0483.452 (0) The time we have been running (483.3) is approaching the resumption interval (511) - increasing resumption interval to 514
+0483.458 (0) Dropbox chunked upload: 55.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 71303168)
+0485.120 (0) The time we have been running (484.9) is approaching the resumption interval (514) - increasing resumption interval to 515
+0485.130 (0) Dropbox chunked upload: 56.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 72351744)
+0487.484 (0) The time we have been running (487.3) is approaching the resumption interval (515) - increasing resumption interval to 518
+0487.489 (0) Dropbox chunked upload: 56.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 73400320)
+0489.326 (0) The time we have been running (489.1) is approaching the resumption interval (518) - increasing resumption interval to 520
+0489.332 (0) Dropbox chunked upload: 57.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 74448896)
+0492.895 (0) The time we have been running (492.7) is approaching the resumption interval (520) - increasing resumption interval to 523
+0492.902 (0) Dropbox chunked upload: 58.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 75497472)
+0494.496 (0) The time we have been running (494.3) is approaching the resumption interval (523) - increasing resumption interval to 525
+0494.511 (0) Dropbox chunked upload: 59.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 76546048)
+0496.276 (0) The time we have been running (496.1) is approaching the resumption interval (525) - increasing resumption interval to 527
+0496.283 (0) Dropbox chunked upload: 60.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 77594624)
+0498.450 (0) The time we have been running (498.3) is approaching the resumption interval (527) - increasing resumption interval to 529
+0498.457 (0) Dropbox chunked upload: 61 % uploaded (c7oeZS172VdoS8o-O7UB-g, 78643200)
+0501.220 (0) The time we have been running (501) is approaching the resumption interval (529) - increasing resumption interval to 532
+0501.240 (0) Dropbox chunked upload: 61.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 79691776)
+0502.860 (0) The time we have been running (502.7) is approaching the resumption interval (532) - increasing resumption interval to 533
+0502.882 (0) Dropbox chunked upload: 62.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 80740352)
+0504.615 (0) The time we have been running (504.4) is approaching the resumption interval (533) - increasing resumption interval to 535
+0504.621 (0) Dropbox chunked upload: 63.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 81788928)
+0506.637 (0) The time we have been running (506.5) is approaching the resumption interval (535) - increasing resumption interval to 537
+0506.645 (0) Dropbox chunked upload: 64.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 82837504)
+0509.938 (0) The time we have been running (509.8) is approaching the resumption interval (537) - increasing resumption interval to 540
+0509.945 (0) Dropbox chunked upload: 65.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 83886080)
+0511.595 (0) The time we have been running (511.4) is approaching the resumption interval (540) - increasing resumption interval to 542
+0511.600 (0) Dropbox chunked upload: 65.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 84934656)
+0513.290 (0) The time we have been running (513.1) is approaching the resumption interval (542) - increasing resumption interval to 544
+0513.319 (0) Dropbox chunked upload: 66.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 85983232)
+0515.388 (0) The time we have been running (515.2) is approaching the resumption interval (544) - increasing resumption interval to 546
+0515.396 (0) Dropbox chunked upload: 67.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 87031808)
+0518.236 (0) The time we have been running (518.1) is approaching the resumption interval (546) - increasing resumption interval to 549
+0518.244 (0) Dropbox chunked upload: 68.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 88080384)
+0519.860 (0) The time we have been running (519.7) is approaching the resumption interval (549) - increasing resumption interval to 550
+0519.868 (0) Dropbox chunked upload: 69.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 89128960)
+0521.761 (0) The time we have been running (521.6) is approaching the resumption interval (550) - increasing resumption interval to 552
+0521.769 (0) Dropbox chunked upload: 69.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 90177536)
+0523.826 (0) The time we have been running (523.6) is approaching the resumption interval (552) - increasing resumption interval to 554
+0523.836 (0) Dropbox chunked upload: 70.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 91226112)
+0527.130 (0) The time we have been running (526.9) is approaching the resumption interval (554) - increasing resumption interval to 557
+0527.148 (0) Dropbox chunked upload: 71.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 92274688)
+0528.949 (0) The time we have been running (528.8) is approaching the resumption interval (557) - increasing resumption interval to 559
+0528.956 (0) Dropbox chunked upload: 72.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 93323264)
+0530.690 (0) The time we have been running (530.5) is approaching the resumption interval (559) - increasing resumption interval to 561
+0530.705 (0) Dropbox chunked upload: 73.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 94371840)
+0532.668 (0) The time we have been running (532.5) is approaching the resumption interval (561) - increasing resumption interval to 563
+0532.674 (0) Dropbox chunked upload: 74 % uploaded (c7oeZS172VdoS8o-O7UB-g, 95420416)
+0535.453 (0) The time we have been running (535.3) is approaching the resumption interval (563) - increasing resumption interval to 566
+0535.458 (0) Dropbox chunked upload: 74.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 96468992)
+0537.130 (0) The time we have been running (537) is approaching the resumption interval (566) - increasing resumption interval to 567
+0537.137 (0) Dropbox chunked upload: 75.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 97517568)
+0538.899 (0) The time we have been running (538.7) is approaching the resumption interval (567) - increasing resumption interval to 569
+0538.905 (0) Dropbox chunked upload: 76.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 98566144)
+0540.716 (0) The time we have been running (540.5) is approaching the resumption interval (569) - increasing resumption interval to 571
+0540.722 (0) Dropbox chunked upload: 77.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 99614720)
+0544.470 (0) The time we have been running (544.3) is approaching the resumption interval (571) - increasing resumption interval to 575
+0544.476 (0) Dropbox chunked upload: 78.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 100663296)
+0546.001 (0) The time we have been running (545.8) is approaching the resumption interval (575) - increasing resumption interval to 576
+0546.008 (0) Dropbox chunked upload: 78.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 101711872)
+0547.765 (0) The time we have been running (547.6) is approaching the resumption interval (576) - increasing resumption interval to 578
+0547.773 (0) Dropbox chunked upload: 79.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 102760448)
+0549.635 (0) The time we have been running (549.5) is approaching the resumption interval (578) - increasing resumption interval to 580
+0549.643 (0) Dropbox chunked upload: 80.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 103809024)
+0553.432 (0) The time we have been running (553.3) is approaching the resumption interval (580) - increasing resumption interval to 584
+0553.438 (0) Dropbox chunked upload: 81.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 104857600)
+0555.088 (0) The time we have been running (554.9) is approaching the resumption interval (584) - increasing resumption interval to 585
+0555.094 (0) Dropbox chunked upload: 82.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 105906176)
+0557.426 (0) The time we have been running (557.2) is approaching the resumption interval (585) - increasing resumption interval to 588
+0557.432 (0) Dropbox chunked upload: 82.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 106954752)
+0559.395 (0) The time we have been running (559.2) is approaching the resumption interval (588) - increasing resumption interval to 590
+0559.402 (0) The scheduled resumption is within 45 seconds - will reschedule
+0559.408 (0) Rescheduling resumption 1: moving to 635 seconds from now (1436312292)
+0559.420 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 590 + 45 = 635
+0559.425 (0) Dropbox chunked upload: 83.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 108003328)
+0563.415 (0) Dropbox chunked upload: 84.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 109051904)
+0565.017 (0) Dropbox chunked upload: 85.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 110100480)
+0566.799 (0) Dropbox chunked upload: 86.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 111149056)
+0568.948 (0) Dropbox chunked upload: 87 % uploaded (c7oeZS172VdoS8o-O7UB-g, 112197632)
+0572.808 (0) Dropbox chunked upload: 87.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 113246208)
+0574.343 (0) Dropbox chunked upload: 88.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 114294784)
+0576.133 (0) Dropbox chunked upload: 89.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 115343360)
+0578.488 (0) Dropbox chunked upload: 90.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 116391936)
+0581.522 (0) Dropbox chunked upload: 91.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 117440512)
+0583.002 (0) Dropbox chunked upload: 91.9 % uploaded (c7oeZS172VdoS8o-O7UB-g, 118489088)
+0585.080 (0) Dropbox chunked upload: 92.7 % uploaded (c7oeZS172VdoS8o-O7UB-g, 119537664)
+0587.251 (0) Dropbox chunked upload: 93.5 % uploaded (c7oeZS172VdoS8o-O7UB-g, 120586240)
+0589.823 (0) Dropbox chunked upload: 94.3 % uploaded (c7oeZS172VdoS8o-O7UB-g, 121634816)
+0591.363 (0) Dropbox chunked upload: 95.1 % uploaded (c7oeZS172VdoS8o-O7UB-g, 122683392)
+0593.144 (0) Dropbox chunked upload: 96 % uploaded (c7oeZS172VdoS8o-O7UB-g, 123731968)
+0595.532 (0) Dropbox chunked upload: 96.8 % uploaded (c7oeZS172VdoS8o-O7UB-g, 124780544)
+0599.499 (0) Dropbox chunked upload: 97.6 % uploaded (c7oeZS172VdoS8o-O7UB-g, 125829120)
+0601.199 (0) Dropbox chunked upload: 98.4 % uploaded (c7oeZS172VdoS8o-O7UB-g, 126877696)
+0602.994 (0) Dropbox chunked upload: 99.2 % uploaded (c7oeZS172VdoS8o-O7UB-g, 127926272)
+0605.035 (0) Dropbox chunked upload: 100 % uploaded (c7oeZS172VdoS8o-O7UB-g, 128942700)
+0608.312 (0) Recording as successfully uploaded: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip (93220094e93c524aaa78d60234bb1610)
+0608.407 (0) Deleting local file: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip: OK
+0608.409 (0) Dropbox: File upload success (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-uploads.zip): 125920 Kb in 277s (454 Kb/s)
+0608.692 (0) Dropbox quota usage: normal=4622.9 Mb, shared=0 Mb, total=1050880 Mb, available=1046257.1 Mb
+0608.698 (0) Dropbox: Attempt to upload: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip to: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip
+0610.454 (0) The time we have been running (610.3) is approaching the resumption interval (635) - increasing resumption interval to 641
+0610.460 (0) Dropbox chunked upload: 4.7 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 1048576)
+0612.559 (0) The time we have been running (612.4) is approaching the resumption interval (641) - increasing resumption interval to 643
+0612.565 (0) Dropbox chunked upload: 9.3 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 2097152)
+0614.622 (0) The time we have been running (614.4) is approaching the resumption interval (643) - increasing resumption interval to 645
+0614.629 (0) Dropbox chunked upload: 14 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 3145728)
+0617.750 (0) The time we have been running (617.6) is approaching the resumption interval (645) - increasing resumption interval to 648
+0617.770 (0) Dropbox chunked upload: 18.6 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 4194304)
+0619.584 (0) The time we have been running (619.4) is approaching the resumption interval (648) - increasing resumption interval to 650
+0619.595 (0) Dropbox chunked upload: 23.3 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 5242880)
+0621.590 (0) The time we have been running (621.4) is approaching the resumption interval (650) - increasing resumption interval to 652
+0621.597 (0) Dropbox chunked upload: 27.9 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 6291456)
+0623.575 (0) The time we have been running (623.4) is approaching the resumption interval (652) - increasing resumption interval to 654
+0623.580 (0) Dropbox chunked upload: 32.6 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 7340032)
+0626.581 (0) The time we have been running (626.4) is approaching the resumption interval (654) - increasing resumption interval to 657
+0626.588 (0) Dropbox chunked upload: 37.2 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 8388608)
+0628.334 (0) The time we have been running (628.2) is approaching the resumption interval (657) - increasing resumption interval to 659
+0628.341 (0) Dropbox chunked upload: 41.9 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 9437184)
+0630.424 (0) The time we have been running (630.2) is approaching the resumption interval (659) - increasing resumption interval to 661
+0630.431 (0) Dropbox chunked upload: 46.5 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 10485760)
+0632.644 (0) The time we have been running (632.5) is approaching the resumption interval (661) - increasing resumption interval to 663
+0632.650 (0) Dropbox chunked upload: 51.2 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 11534336)
+0635.706 (0) The time we have been running (635.5) is approaching the resumption interval (663) - increasing resumption interval to 666
+0635.712 (0) Dropbox chunked upload: 55.8 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 12582912)
+0637.541 (0) The time we have been running (637.4) is approaching the resumption interval (666) - increasing resumption interval to 668
+0637.546 (0) Dropbox chunked upload: 60.5 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 13631488)
+0639.462 (0) The time we have been running (639.3) is approaching the resumption interval (668) - increasing resumption interval to 670
+0639.467 (0) Dropbox chunked upload: 65.1 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 14680064)
+0641.526 (0) The time we have been running (641.3) is approaching the resumption interval (670) - increasing resumption interval to 672
+0641.533 (0) Dropbox chunked upload: 69.8 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 15728640)
+0645.075 (0) The time we have been running (644.9) is approaching the resumption interval (672) - increasing resumption interval to 675
+0645.082 (0) Dropbox chunked upload: 74.4 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 16777216)
+0646.770 (0) The time we have been running (646.6) is approaching the resumption interval (675) - increasing resumption interval to 677
+0646.776 (0) Dropbox chunked upload: 79.1 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 17825792)
+0649.038 (0) The time we have been running (648.9) is approaching the resumption interval (677) - increasing resumption interval to 679
+0649.074 (0) Dropbox chunked upload: 83.7 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 18874368)
+0651.137 (0) The time we have been running (651) is approaching the resumption interval (679) - increasing resumption interval to 681
+0651.144 (0) Dropbox chunked upload: 88.4 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 19922944)
+0654.246 (0) The time we have been running (654.1) is approaching the resumption interval (681) - increasing resumption interval to 685
+0654.270 (0) Dropbox chunked upload: 93 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 20971520)
+0655.980 (0) The time we have been running (655.8) is approaching the resumption interval (685) - increasing resumption interval to 686
+0656.000 (0) Dropbox chunked upload: 97.7 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 22020096)
+0657.685 (0) The time we have been running (657.5) is approaching the resumption interval (686) - increasing resumption interval to 688
+0657.692 (0) Dropbox chunked upload: 100 % uploaded (khGnLB7rRVzbhKoIAMzlbQ, 22541606)
+0659.939 (0) Recording as successfully uploaded: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip (4e1d008044399463cf9416e009175fe5)
+0659.978 (0) Deleting local file: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip: OK
+0659.984 (0) Dropbox: File upload success (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-others.zip): 22013 Kb in 51s (429 Kb/s)
+0660.182 (0) Dropbox quota usage: normal=4644.4 Mb, shared=0 Mb, total=1050880 Mb, available=1046235.6 Mb
+0660.188 (0) Dropbox: Attempt to upload: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db.gz to: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db.gz
+0661.988 (0) The time we have been running (661.8) is approaching the resumption interval (688) - increasing resumption interval to 692
+0661.995 (0) Dropbox chunked upload: 100 % uploaded (TJLyUaBVcHNdNOIRgsd5QQ, 371978)
+0663.455 (0) Recording as successfully uploaded: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db.gz (b867c2e8ca0a2528ac75b19663bc09f5)
+0663.468 (0) Deleting local file: backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db.gz: OK
+0663.472 (0) Dropbox: File upload success (backup_2015-07-07-1818_Keener_Jerseys_c3fd1cf75bcb-db.gz): 363 Kb in 3s (110 Kb/s)
+0663.479 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0663.484 (0) Number of backup sets in history: 3
+0663.490 (0) Examining backup set with datestamp: 1436311097 (Jul 07 2015 23:18:17)
+0663.506 (0) The time we have been running (663.3) is approaching the resumption interval (692) - increasing resumption interval to 694
+0663.513 (0) 1436311097: this backup set remains non-empty (1/1); will retain in history
+0663.516 (0) Examining backup set with datestamp: 1436225655 (Jul 06 2015 23:34:15)
+0663.523 (0) 1436225655: this backup set remains non-empty (1/1); will retain in history
+0663.526 (0) Examining backup set with datestamp: 1436139230 (Jul 05 2015 23:33:50)
+0663.533 (0) 1436139230: db: this set includes a database (backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-db.gz); db count is now 3
+0663.537 (0) 1436139230: db: over retain limit (2); will delete this database
+0663.540 (0) Delete file: backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-db.gz, service=dropbox
+0663.550 (0) Dropbox: request deletion: backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-db.gz
+0663.941 (0) Dropbox: delete succeeded
+0663.950 (0) plugins: 1436139230: over retain limit (2); will delete this file (backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-plugins.zip)
+0663.954 (0) themes: 1436139230: over retain limit (2); will delete this file (backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-themes.zip)
+0663.956 (0) uploads: 1436139230: over retain limit (2); will delete this file (backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-uploads.zip)
+0663.959 (0) others: 1436139230: over retain limit (2); will delete this file (backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-others.zip)
+0663.962 (0) Delete file: backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-plugins.zip, service=dropbox
+0663.965 (0) Delete file: backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-themes.zip, service=dropbox
+0663.967 (0) Delete file: backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-uploads.zip, service=dropbox
+0663.969 (0) Delete file: backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-others.zip, service=dropbox
+0663.973 (0) Dropbox: request deletion: backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-plugins.zip
+0664.334 (0) Dropbox: delete succeeded
+0664.340 (0) Dropbox: request deletion: backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-themes.zip
+0664.716 (0) Dropbox: delete succeeded
+0664.720 (0) Dropbox: request deletion: backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-uploads.zip
+0665.088 (0) Dropbox: delete succeeded
+0665.105 (0) Dropbox: request deletion: backup_2015-07-05-1833_Keener_Jerseys_cd4a80a3abf7-others.zip
+0665.459 (0) Dropbox: delete succeeded
+0665.473 (0) The time we have been running (665.3) is approaching the resumption interval (694) - increasing resumption interval to 696
+0665.479 (0) 1436139230: this backup set is now empty; will remove from history
+0665.484 (0) 1436139230: deleting log file (log.cd4a80a3abf7.txt)
+0665.984 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0666.000 (0) Resume backup (c3fd1cf75bcb, 0): finish run
+0666.012 (0) Decremented the semaphore (fd) by 1
+0666.015 (0) Semaphore (fd) unlocked
+0666.018 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0666.029 (0) No email will/can be sent - the user has not configured an email address.
+0666.033 (0) The backup apparently succeeded and is now complete
